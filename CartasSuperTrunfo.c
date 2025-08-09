@@ -7,6 +7,46 @@
 //Teste larissa
 
 int main() {
+    char estado;
+    char Estado;
+    char codigodacarta[50];
+    char nomedacidade[50];
+    int populaçao;
+    float area;
+    float pib;
+    int numerodepontosturisticos;
+
+    printf("Carta 1:\n");
+    printf("Estado: \n");
+    scanf("%s", &estado);
+    printf("Código da Carta: \n");
+    scanf("%s", &codigodacarta);
+    printf("Nome da Cidade: \n");
+    scanf("%s", &nomedacidade);
+    printf("População: \n");
+    scanf("%f", &populaçao);
+    printf("Área: \n");
+    scanf("%f", &area);
+    printf("PIB: \n");
+    scanf("%.lf", &pib);
+    printf("Numero de Pontos Turisticos: \n");
+    scanf("%d", &numerodepontosturisticos);
+
+    printf("Carta 2:\n");
+    printf("Estado: \n");
+    scanf("%s", &Estado);
+    printf("Código da Carta: \n");
+    scanf("%s", &codigodacarta);
+    printf("Nome da Cidade: \n");
+    scanf("%s", &nomedacidade);
+    printf("População: \n");
+    scanf("%f", &populaçao);
+    printf("Área: \n");
+    scanf("%f", &area);
+    printf("PIB: \n");
+    scanf("%f", &pib);
+    printf("Numero de Pontos Turisticos: \n");
+    scanf("%d", &numerodepontosturisticos);
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
     
