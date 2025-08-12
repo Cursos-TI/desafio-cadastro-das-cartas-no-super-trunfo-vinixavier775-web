@@ -3,7 +3,7 @@
 int main() {
     char estado = 'A';
     char codigo[5] = "A01";
-    char nome[14] = "São Paulo";
+    char nome[15] = "São Paulo";
     int populacao = 123250000;
     float area = 1521.11; //Em KM²
     float pib = 699.28; //Bilhões de Reais
@@ -13,7 +13,7 @@ int main() {
 
     char estado2 = 'B';
     char codigo2[5] = "B02";
-    char nome2[14] = "Rio de Janeiro";
+    char nome2[15] = "Rio de Janeiro";
     int populacao2 =67480000;
     float area2 = 1200.25; //Em KM²
     float pib2 = 300.50; //Bilhões de Reais
